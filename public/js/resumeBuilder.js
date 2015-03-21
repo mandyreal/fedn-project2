@@ -101,19 +101,19 @@ var projects = {
         },
         {
            "title"        : "Udacity Frontend Web Developer Nanodegree Project 2",
-            "dates"       : "November 2014",
+            "dates"       : "December 2014",
             "description" : "Create interactive resume using Javascript to manipulate HTML and CSS elements",
             "images"      : ["images/project2.png"]
         },
         {
            "title"        : "Udacity Frontend Web Developer Nanodegree Project 3",
-            "dates"       : "November 2014",
+            "dates"       : "January 2015",
             "description" : "Given the visual assets and game loop engine, recreate the classic arcade game Frogger by adding the required entities including the characters and enemies.",
             "images"      : ["images/197x148.gif"]
         },
         {
            "title"        : "Udacity Frontend Web Developer Nanodegree Project 4",
-            "dates"       : "November 2014",
+            "dates"       : "February 2015",
             "description" : "Website Optimization Project - implemented web site optimizations to achieve required PageSpeed Ingsights score of > 90",
             "images"      : ["images/project4.png"]
         }
