@@ -109,7 +109,7 @@ var projects = {
            "title"        : "Udacity Frontend Web Developer Nanodegree Project 3",
             "dates"       : "January 2015",
             "description" : "Given the visual assets and game loop engine, recreate the classic arcade game Frogger by adding the required entities including the characters and enemies.",
-            "images"      : ["images/197x148.gif"]
+            "images"      : ["images/project3.png"]
         },
         {
            "title"        : "Udacity Frontend Web Developer Nanodegree Project 4",
