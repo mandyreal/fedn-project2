@@ -10,7 +10,7 @@ var bio = {
         "location" : "Singapore"
 	},
     "pic" : "images/fry.jpg",
-    "skills" : ["HTML","CSS","Javascript","SQL","Ruby on Rails","Java"],
+    "skills" : ["HTML","CSS","Javascript","SQL","Git","Ruby on Rails","Java"],
     display: function() {
 
       var headerSection = $('#header');
