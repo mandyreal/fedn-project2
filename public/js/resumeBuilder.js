@@ -10,7 +10,7 @@ var bio = {
         "location" : "Singapore"
 	},
     "pic" : "images/fry.jpg",
-    "skills" : ["HTML","CSS","Javascript","Ruby on Rails","Java"],
+    "skills" : ["HTML","CSS","Javascript","SQL","Ruby on Rails","Java"],
     display: function() {
 
       var headerSection = $('#header');
@@ -102,8 +102,20 @@ var projects = {
         {
            "title"        : "Udacity Frontend Web Developer Nanodegree Project 2",
             "dates"       : "November 2014",
-            "description" : "Create interactive resume using javascript to manipulate HTML and CSS elements",
-            "images"      : ["images/197x148.gif","images/197x148.gif"]
+            "description" : "Create interactive resume using Javascript to manipulate HTML and CSS elements",
+            "images"      : ["images/project2.png"]
+        },
+        {
+           "title"        : "Udacity Frontend Web Developer Nanodegree Project 3",
+            "dates"       : "November 2014",
+            "description" : "Given the visual assets and game loop engine, recreate the classic arcade game Frogger by adding the required entities including the characters and enemies.",
+            "images"      : ["images/197x148.gif"]
+        },
+        {
+           "title"        : "Udacity Frontend Web Developer Nanodegree Project 4",
+            "dates"       : "November 2014",
+            "description" : "Website Optimization Project - implemented web site optimizations to achieve required PageSpeed Ingsights score of > 90",
+            "images"      : ["images/project4.png"]
         }
     ],
     display: function() {
