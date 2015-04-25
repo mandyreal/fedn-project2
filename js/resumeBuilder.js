@@ -1,6 +1,6 @@
 var bio = {
 	"name"   : "Mandy Real",
-    "role"   : "Front-end Web Developer In-Training",
+    "role"   : "Front-end Web Developer",
     "welcomeMessage" : "Hire Me!",
 	"contacts" : {
 		"mobile"   : "+6596770640",
@@ -9,8 +9,8 @@ var bio = {
         "twitter"  : "@mandoysg",
         "location" : "Singapore"
 	},
-    "pic" : "images/fry.jpg",
-    "skills" : ["HTML","CSS","Javascript","Ruby on Rails","Java"],
+    "pic" : "images/MANDY_photo2.jpg",
+    "skills" : ["HTML","CSS","Javascript, jQuery, AJAX", "SQL", "Git","Knockout.js, Jasmine","Ruby on Rails"],
     display: function() {
 
       var headerSection = $('#header');
@@ -19,6 +19,7 @@ var bio = {
 
       var formattedHeaderName = HTMLheaderName.replace("%data%", bio.name);
       var formattedHeaderRole = HTMLheaderRole.replace("%data%", bio.role);
+      var formattedWelcomeMsg = HTMLWelcomeMsg.replace("%data%", bio.welcomeMessage);
 
       var formattedPic = HTMLbioPic.replace("%data%", bio.pic);
 
@@ -62,7 +63,7 @@ var work = {
             "title"       : "Database Administrator",
             "location"    : "Singapore",
             "dates"       : "2005-Present",
-            "description" : "DB2 for z/OS database administration on mainframe and .NET applications for local government agencies"            
+            "description" : "SQL Server, DB2 database administration for mainframe and .NET applications for local government agencies"            
         },
         {
             "employer"    : "Accenture Inc.",
@@ -94,16 +95,40 @@ var work = {
 var projects = {
     "project" : [
         {
-           "title"        : "Udacity Frontend Web Developer Nanodegree Project 1",
+           "title"        : "Udacity FEDN Project 1",
             "dates"       : "October 2014",
-            "description" : "Make a website using HTML and CSS based on a given design mockup", 
-            "images"      : ["images/project1b.png","images/197x148.gif"]
+            "description" : "Given a design mockup, develop a responsive website using Bootstrap's grid system", 
+            "images"      : ["images/P1 Screenshot.png"]
         },
         {
-           "title"        : "Udacity Frontend Web Developer Nanodegree Project 2",
-            "dates"       : "November 2014",
-            "description" : "Create interactive resume using javascript to manipulate HTML and CSS elements",
-            "images"      : ["images/197x148.gif","images/197x148.gif"]
+           "title"        : "Udacity FEDN Project 2",
+            "dates"       : "December 2014",
+            "description" : "Create an interactive resume using Javascript to manipulate HTML and CSS elements",
+            "images"      : ["images/P2 Screenshot.png"]
+        },
+        {
+           "title"        : "Udacity FEDN Project 3",
+            "dates"       : "January 2015",
+            "description" : "Given the visual assets and game loop engine, recreate the classic arcade game Frogger by adding the required entities including the characters and enemies.",
+            "images"      : ["images/P3 Screenshot.png"]
+        },
+        {
+           "title"        : "Udacity FEDN Project 4",
+            "dates"       : "February 2015",
+            "description" : "Website Optimization Project - implemented web site optimizations to achieve required PageSpeed Ingsights score of > 90",
+            "images"      : ["images/P4 Screenshot.png"]
+        },
+        {
+           "title"        : "Udacity FEDN Project 5",
+            "dates"       : "March 2015",
+            "description" : "Developed a single page web application to display a specific neighborhood and interesting places around it using Google Map and 3rd party APIs",
+            "images"      : ["images/P5 Screenshot.png"]
+        },
+        {
+           "title"        : "Udacity FEDN Project 6",
+            "dates"       : "April 2015",
+            "description" : "Using Jasmine, complete the test suite needed to test the web app which reads RSS feeds",
+            "images"      : ["images/P6 Screenshot.png"]
         }
     ],
     display: function() {
